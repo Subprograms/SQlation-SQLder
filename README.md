@@ -1,15 +1,15 @@
 # SQLation / SQLder
 
-Build and practice on SQL queries with SQLder, then fire up a simulated SQL database to query from via SQLation.py
+Build and practice on SQL queries with SQLder, then fire up a simulated SQL database to query from via SQLation.exe
 
 ---
 
 ## Overview
 
-This suite provides a hands-on learning environment featuring two main components:
+This project provides a hands-on learning environment featuring two main components:
 
-1. **SQL Practice Worksheet**: A practical exercise file designed to build, refine, and practice essential relational database querying concepts.
-2. **Python SQL Query Simulator**: An interactive, terminal-based database engine that automatically loads setup files, executes read-only SQL queries in an in-memory SQLite database, and logs outputs directly to CSV files.
+1. **SQLder.xlsm**: A practical exercise file designed to build, refine, and practice essential relational database querying concepts.
+2. **SQLation.exe**: An interactive, terminal-based database engine that automatically loads setup files, executes read-only SQL queries in an in-memory SQLite database, and logs outputs directly to CSV files.
 
 ---
 
@@ -100,17 +100,6 @@ The program automatically normalizes filenames and table identifiers based on yo
 | **Database Table** | `<setup_filename>_db` | `practice_data_db` |
 | **Full Database CSV** | `<setup_filename>_db.csv` | `practice_data_db.csv` |
 | **Daily Query Export** | `<setup_filename>_db_query_MM-DD-YYYY.csv` | `practice_data_db_query_09-03-2026.csv` |
-
----
-
-## Worksheet Integration
-
-The included `SQL_Practice_Worksheet.txt` works directly with the simulator:
-
-1. Review the practice questions and schema layout outlined inside the worksheet.
-2. Select `SQL_Practice_Worksheet.txt` when prompted by `main.py` at startup.
-3. Formulate your SQL queries to solve each exercise, entering them directly into the terminal prompt.
-4. Verify your results using the formatted terminal output tables or check the exported query CSV files.
 
 ---
 
